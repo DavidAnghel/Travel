@@ -1,0 +1,325 @@
+@media (max-width: 496px){
+.infoNav>ul>li:first-child{
+    display: none !important;
+}
+}
+
+@media screen and (max-width: 878px){
+    .tripNav{
+        display: block !important;
+        text-align: center;
+    }
+    .tripForm{
+        margin-top: 13rem;
+    }
+}
+
+
+body{
+    margin: 0;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #E1DDDB;
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    transform: scale(1.15);
+    transition:0.25s;
+}
+nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    background-color: #ABDFF1 ;
+    border-radius: 15px;
+    width: 100%;
+}
+nav a{
+    color: #0C4A60;
+    font-weight: 900;
+}
+.infoNav{
+    display: flex;
+    justify-content: space-between;
+}
+.infoNav>a>img{
+    padding:10px 0px 0px 20px;
+    width: 4rem;
+}
+.infoNav>ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding-right: 20px;
+}
+.infoNav>ul>li:hover{
+    transform: scale(1.15);
+    transition:0.25s;
+}
+
+.tripNav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding:0 20px 0px 20px;
+    margin: 0;
+}
+.tripNav>li{
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.tripNav>li:hover{
+    background-color:#e77d50;
+    transform: scale(1.2);
+    transition:0.25s;
+}
+
+main{
+    display: block;
+    margin: 0 0px;
+}
+
+.tripForm{
+    display: block;
+    text-align: center;
+    height: 45rem;
+    background-image: url(./assets/img/other/12.avif);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.tripForm>p{
+    padding-top: 10rem;
+    font-size: 40px;
+    font-weight: 900;
+    -webkit-text-stroke: 0.5px black;
+ font-family: arial; color: rgb(255, 255, 255);
+}
+.form{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form div{
+    display: grid;
+    gap: 10px;
+}
+input,select{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.tripForm>button{
+    margin-top: 5rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: #e77d50;
+    color: #E1DDDB;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.tripForm>button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+main>h2{
+    text-align: center;
+    margin: 5rem;
+    font-size: 40px;
+    border: 5px double black;
+    border-radius: 15px;
+}
+.firstBox, .secondBox, .thirdBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 40px;
+    
+}
+.firstBox>div,.secondBox>div, .thirdBox>div{
+    width: 35rem;
+    height: 20rem;
+    border-radius: 15px;
+}
+
+.firstBox>div>div:first-child,.secondBox>div>div:first-child, .thirdBox>div>div:first-child{
+    padding: 25px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #0C4A60;
+}
+
+.firstBox>div>div:nth-child(2){
+    margin-top: 160px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color:  white ;
+    background-color: #e77d50 ;
+    width: 45%;
+    border-radius: 0px 30px 7px 0;
+}
+
+.grecia{
+    background-image: url(./assets/img/vacante/grecia.jpg);
+}
+.turcia{
+    background-image: url(./assets/img/vacante/turcia.jpg);
+}
+.spania{
+    background-image: url(./assets/img/vacante/spania.jpg);
+}
+.croatia{
+    background-image: url(./assets/img/vacante/croatia.jpg);
+}
+.italia{
+    background-image: url(./assets/img/vacante/italia.jpg);
+}
+.romania{
+    background-image: url(./assets/img/vacante/romania.jpg);
+}
+/* City break */
+.secondBox>div>div:nth-child(2){
+    margin-top: 160px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color:  #0C4A60  ;
+    background-color: #abe0f1d8  ;
+    width: 45%;
+    border-radius: 0px 30px 7px 0;
+}
+.madridCity{
+    background-image: url(./assets/img/city/madrid.jpg);
+}
+.pragaCity{
+    background-image: url(./assets/img/city/praga.jpg);
+}
+.barcelonaCity{
+    background-image: url(./assets/img/city/barcelona.jpeg);
+}
+.romaCity{
+    background-image: url(./assets/img/city/roma.jpg);
+}
+.budapestaCity{
+    background-image: url(./assets/img/city/budapesta.jpg);
+}
+.berlinCity{
+    background-image: url(./assets/img/city/berlin.jpg);
+}
+/* Circuite */
+.thirdBox>div>div:nth-child(2){
+    margin-top: 160px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color:  white  ;
+    background-color: #0c4a60dc ;
+    width: 45%;
+    border-radius: 0px 30px 7px 0;
+}
+.marocCircuit{
+    background-image: url(./assets/img/circuite/maroc.jpg);
+}
+.spaniaCircuit{
+    background-image: url(./assets/img/circuite/spania.jpg);
+}
+.romaniaCircuit{
+    background-image: url(./assets/img/circuite/romania.jpg);
+}
+.israelCircuit{
+    background-image: url(./assets/img/circuite/israel.jpeg);
+}
+.croatiaCircuit{
+    background-image: url(./assets/img/circuite/croatia.jpg);
+}
+.norvegiaCircuit{
+    background-image: url(./assets/img/circuite/norvegia.jpg);
+}
+
+.contactUs{
+    display: block;
+    width: 100% !important;
+    height: 12rem !important;
+    text-align: center;
+    background-color:#0C4A60;
+    border-radius: 0px !important;
+    padding: 1px;
+}
+.contactUs>p{
+    font-size: 45px;
+    margin: 30px 0px;
+    color: white;
+    font-weight: 900;
+}
+.contactUs>button{
+    width: 15rem;
+    height:3rem ;
+    background-color: white;
+    border-radius: 15px;
+}
+.contactUs>button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.contactUs>button>a{
+    color: #0C4A60;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #abe0f17a;
+   
+}
+footer>div{
+    width: 20rem;
+}
+footer>div:nth-child(4)>a>button{
+    width: 15rem;
+    height:3rem ;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #0C4A60;
+    cursor: pointer;
+}
+footer>div:nth-child(4)>a>button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.fa {
+    padding: 7px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: #0C4A60;
+    color: white;
+    border-radius: 50px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+ 
+
+  

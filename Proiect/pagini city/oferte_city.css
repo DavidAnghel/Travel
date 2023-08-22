@@ -1,0 +1,145 @@
+@media (min-width: 340px) and (max-width: 584px){
+    main{
+        flex-direction: column;
+        margin-top: 25rem !important;
+    }
+    .formOferteMobile{
+        display: block !important;
+        width: 100%;
+        text-align: center;
+        background-color: #0C4A60;
+        color: #ABDFF1;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .listOferteImg{
+        width: 15rem !important;
+        height: 15rem !important;
+    }
+}
+
+@media  (min-width: 585px) and (max-width: 877px){
+
+    main{
+        flex-direction: column;
+        margin-top: 22rem !important;
+    }
+    .formOferteMobile{
+        display: block !important;
+        width: 100%;
+        text-align: center;
+        background-color: #0C4A60;
+        color: #ABDFF1;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .formOferte{
+        display: none;
+    }
+}
+    
+    @media  (max-width: 878px){
+        .formOferte{
+            display: none;
+        }
+    }
+
+main{
+    margin: 10rem 1rem 1rem 1rem;
+    display: flex;
+}
+.formOferteMobile{
+    display: none;
+}
+.formOferte{
+    padding: 50px;
+    background-color: #ABDFF1 ;
+    border-radius: 12px;
+    width: 20%;
+
+}
+.formOferte>div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.formOferte>div:first-child>p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #0C4A60;
+}
+.formOferte>button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: #e77d50;
+    color: #E1DDDB;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+
+.listOferte{
+    width: 40%;
+    padding-left: 25%;
+}
+.listOferteContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listOferteImg{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(../assets/img/city/roma.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.listOferteImg>p{
+font-size: 35px;
+font-weight: 600;
+color: #cc4309;
+}
+.listOferteDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+.listOferteDetail>p{
+    color: #0C4A60;
+    font-size: 15px;
+    font-weight: 600;
+}
+.listPrice{
+   padding-left: 20px;
+}
+.listPrice>p:first-child{
+    font-size: 30px;
+    font-weight: 600;
+    color: #0C4A60;
+}
+.listPrice>button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: #0C4A60;
+    color: #E1DDDB;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}

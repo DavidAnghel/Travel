@@ -1,0 +1,72 @@
+@media (min-width: 340px) and (max-width: 584px){
+    
+}
+
+@media  (min-width: 585px) and (max-width: 877px){
+    
+}
+    
+    @media  (max-width: 878px){
+        main{
+            margin-top: 25rem !important;
+        }
+        .contact{
+            display: block !important;
+        }
+        .contactInfo{
+            display: none;
+        }
+    }
+
+.tripNav>li:nth-child(6){
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #7fd3ee;
+    
+}
+main{
+    margin: 10rem 10px 10px 10px;
+}
+
+.contact{
+    display: flex;
+}
+.contact p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0C4A60;
+}
+.contactInfo{
+    width: 20%;
+}
+.contactForm{
+    width: 80%;
+    text-align: center;
+}
+.contactForm>div{
+    width: 100%;
+}
+.contactForm>div>input{
+    width: 35%;
+    height: 70px;
+   margin: 1rem;
+}
+.contactForm>div:nth-child(3)>input{
+    width: 73%;
+    
+}
+.contactForm>div:nth-child(4)>input{
+    width: 73%;
+    height: 18rem;
+}
+.contactForm>button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color:#7fd3ee;
+    font-size: 17px;
+    font-weight: 600;
+    color: #0C4A60;
+    border:2px solid #0C4A60;
+}
